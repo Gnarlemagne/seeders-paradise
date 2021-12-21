@@ -8,5 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+
+# VSCode
+.vscode
+
+# Actual Ignores
 debug.txt
 config.ini

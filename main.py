@@ -87,6 +87,9 @@ def run():
         player = Player(p["id"], p["tag"], p["seed_id"], s)
         bracket.add_player(player)
     
+    bracket.print_seeding()
+    bracket.generate_sets()
+    
     print(bracket)
 
 
